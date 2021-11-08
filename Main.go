@@ -11,6 +11,12 @@ func main() {
 	fmt.Println("Введите второе число")
 	fmt.Scan(&num2)
 	fmt.Println("Вы ввели ", num2)
+
+	fmt.Println("Первое число + Второе число = ", num1+num2)
+	fmt.Println("Первое число - Второе число = ", num1-num2)
+	fmt.Println("Первое число * Второе число = ", num1*num2)
+	fmt.Println("Первое число / Второе число = ", num1/num2)
+	fmt.Println("Первое число % Второе число = ", num1%num2)
 	/*
 		//	fmt.Println(a * 5)
 		for i := 0; i < a; i++ {
